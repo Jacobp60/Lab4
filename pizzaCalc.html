@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Calc</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src = "calc.js"></script>
+</head>
+<body>
+    <h1>Menu</h1>
+    <ul>
+        <li> Pizza: 15$</li>
+        <li> Toppings: 1.25$</li>
+        <p> This calculator will help calculate how much every Co-worker pays if these co-wrokers split a pizza</p>
+    </ul>
+    <!-- input text area -->
+    <label for="toppings">Amount of Toppings</label>
+    <input id = "toppings" type ="number" min="0" max="7">
+
+    <br>
+
+    <label for="coworker">Amount of Coworkers</label>
+    <input id = "coworker" type ="number" min="0">
+    <!-- Button -->
+    <button> Calculate Amount Everyone Pays for Pizza </button>
+    <!-- Output -->
+    <p id = "everyonePays"></p>
+</body>
+</html>
